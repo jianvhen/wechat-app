@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="search-area">
+    <button class="btn box-btn" type="primary" bindtap="translate">翻译</button>
+    <button class="btn box-btn" type="primary" bindtap="map">地图</button>
+  </view>
+</view>

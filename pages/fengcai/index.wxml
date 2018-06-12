@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="frame">
+    <image src='../images/hongbao.png'></image>
+  </view> 
+</view>

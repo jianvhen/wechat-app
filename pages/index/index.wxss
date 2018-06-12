@@ -1,0 +1,21 @@
+/**index.wxss**/
+
+.wrapper {
+  height: 100%;
+  background: #fff;
+}
+
+.context {
+  width: 80px;
+  height: 80px;
+  display: flex; 
+  position: max-content;
+  margin-left: 130px;
+  margin-right: 130px;
+  align-items: center;
+} 
+
+.images {
+  margin-left: 13px;
+  margin-right: 20px;
+}

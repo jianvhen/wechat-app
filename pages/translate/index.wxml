@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="search-area">
+     <input class="input-text" bindchange="bindInput" placeholder="输入要翻译的内容：" /> 
+    <button class="btn box-btn" type="primary" size="{{primarySize}}" disabled="{{disabled}}" bindtap="searchquery">搜索</button>
+  </view>
+  <view class="search-area" wx:for="{{context}}" wx:for-index="index" wx:for-item="item">
+    <textarea class='context'>{{item.dst}}</textarea>
+  </view>
+</view>

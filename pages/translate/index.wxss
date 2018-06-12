@@ -1,0 +1,56 @@
+.input-text{
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding: 20rpx;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  font-size: 40rpx;
+}
+.search-area{
+  padding: 0 40rpx;
+}
+.box-btn{
+  margin-top: 40rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.list text {
+  flex-grow: 4;
+}
+.text1 {
+  width: 38%;
+  color: dodgerblue;
+}
+.text2 {
+  width: 18%;
+}
+.text3 {
+  width: 28%;
+}
+.text4 {
+  width: 16%;
+}
+.list-bg1 text,view.list-bg1 text.text1{
+  font-weight: bold;
+  color: #333;
+}
+.list-bg1,.list-bg2:nth-of-type(2n){
+  background: #fafafa;
+}
+.nolist {
+  text-align: center;
+  width: 100%;
+  font-size: 28rpx;
+  padding-top: 40rpx;
+  color: #c82829;
+}
+
+.context {
+  width:220px;
+  height:150px;
+  display:block;
+  position:relative;
+
+}

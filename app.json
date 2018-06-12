@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tools/index",
+    "pages/fengcai/index",
+    "pages/translate/index",
+    "pages/map/index"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "iDevOps",
+    "navigationBarTextStyle":"black",
+
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+
+    "enablePullDownRefresh": false,
+
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/home.png",
+        "iconPath": "pages/images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/groups.png",
+        "iconPath": "pages/images/groups.png",
+        "pagePath": "pages/tools/index",
+        "text": "工具"
+      },
+      {
+        "selectedIconPath": "pages/images/tupian.png",
+        "iconPath": "pages/images/tupian.png",
+        "pagePath": "pages/fengcai/index",
+        "text": "风采"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

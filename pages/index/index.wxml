@@ -1,0 +1,14 @@
+<view class="wrapper">
+  <view class="page-body">
+    <view class="page-body-wrapper">
+       <text class='context' hidden="{{displays}}"> 
+      <!-- <text class='context'> -->
+        <!-- {{welcome}} {{nickName}} -->
+        {{welcome}} {{nickName}}
+      </text>
+      <button bindtap="clickMe">
+        <image class='images' src='../images/weixi.jpg'></image>
+      </button>
+    </view>
+  </view>
+</view>
