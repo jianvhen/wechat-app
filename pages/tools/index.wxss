@@ -1,0 +1,20 @@
+/* .box-wrap {
+  text-align: center;
+  background-color: #d4d4f5;
+  overflow: hidden;
+} */
+
+.box-wrap>div {
+  width: 31%;
+  padding-bottom: 31%;
+  margin: 1%;
+  border-radius: 10%;
+  float: left;
+  background-color: #2AA146;
+  /* position:absolute; */
+}
+
+.box {
+  text-align: center;
+  position: relative;
+}

@@ -14,5 +14,11 @@ Page({
     wx.navigateTo({
       url: '../../pages/map/index'
     })
+  },
+
+  zhihu: function (e) {
+    wx.navigateTo({
+      url: '../../pages/zhihu/index'
+    })
   }
 })

@@ -5,7 +5,10 @@
     "pages/tools/index",
     "pages/fengcai/index",
     "pages/translate/index",
-    "pages/map/index"
+    "pages/map/index",
+    "pages/jiugongge/index",
+    "pages/zhihu/index",
+    "pages/zhihu-detail/detail"
   ],
   "window":{
     "navigationBarBackgroundColor": "#fff",

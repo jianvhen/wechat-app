@@ -1,5 +1,5 @@
 <view class="container">
   <view class="frame">
-    <image src='../images/hongbao.png'></image>
+    <image src='../images/hongbao.png' bindtap="previewImage"></image>
   </view> 
 </view>

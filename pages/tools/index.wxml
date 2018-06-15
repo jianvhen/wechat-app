@@ -1,6 +1,14 @@
-<view class="container">
-  <view class="search-area">
-    <button class="btn box-btn" type="primary" bindtap="translate">翻译</button>
-    <button class="btn box-btn" type="primary" bindtap="map">地图</button>
-  </view>
-</view>
+<!-- <view class="container"> -->
+<!-- <view class="search-area"> -->
+<div class="box-wrap">
+  <div class="box" bindtap="translate">翻译</div>
+  <div class="box" bindtap="map">地图</div>
+  <div class="box" bindtap="zhihu">知乎</div>
+  <!-- <div class="box"></div> 
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div> -->
+</div>
+
+<!-- </view> -->
