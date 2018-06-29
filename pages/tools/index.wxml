@@ -4,11 +4,13 @@
   <div class="box" bindtap="translate">翻译</div>
   <div class="box" bindtap="map">地图</div>
   <div class="box" bindtap="zhihu">知乎</div>
-  <!-- <div class="box"></div> 
+  <div class="box" bindtap="gostudy">go</div>  
+  <!--  
   <div class="box"></div>
   <div class="box"></div>
   <div class="box"></div>
-  <div class="box"></div> -->
+  <div class="box"></div>
+   -->
 </div>
 
 <!-- </view> -->

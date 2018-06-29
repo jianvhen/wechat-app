@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/tools/index",
@@ -8,18 +8,16 @@
     "pages/map/index",
     "pages/jiugongge/index",
     "pages/zhihu/index",
-    "pages/zhihu-detail/detail"
+    "pages/zhihu-detail/detail",
+    "pages/studygolang/articles"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "iDevOps",
-    "navigationBarTextStyle":"black",
-
+    "navigationBarTextStyle": "black",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
-
     "enablePullDownRefresh": false,
-
     "onReachBottomDistance": 100
   },
   "tabBar": {
@@ -27,12 +25,12 @@
     "selectedColor": "#11cd6e",
     "borderStyle": "white",
     "list": [
-      {
-        "selectedIconPath": "pages/images/home.png",
-        "iconPath": "pages/images/home.png",
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
+    {
+      "selectedIconPath": "pages/images/home.png",
+      "iconPath": "pages/images/home.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
       {
         "selectedIconPath": "pages/images/groups.png",
         "iconPath": "pages/images/groups.png",

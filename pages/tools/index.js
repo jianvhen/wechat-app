@@ -20,5 +20,11 @@ Page({
     wx.navigateTo({
       url: '../../pages/zhihu/index'
     })
+  },
+
+  gostudy: function (e) {
+    wx.navigateTo({
+      url: '../../pages/studygolang/articles'
+    })
   }
 })

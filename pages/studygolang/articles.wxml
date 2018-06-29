@@ -1,0 +1,7 @@
+<!--detail.wxml-->
+<view class="container">
+    <view class="art-content">
+      {{art}}
+    </view> 
+    <view>test</view>
+</view>
